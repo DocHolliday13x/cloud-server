@@ -29,6 +29,8 @@ Manually deploy your application to this environment by using eb deploy
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/DocHolliday13x/cloud-server/actions)
+- [AWS Deploy](http://cloud-server-dev22.us-west-2.elasticbeanstalk.com/)
+- [Review Deploy](http://lab16-env.eba-pgkchucs.us-west-2.elasticbeanstalk.com/)
 <!-- - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable) -->
 
@@ -38,16 +40,18 @@ Manually deploy your application to this environment by using eb deploy
 - Reece Renninger
 - Ike Steoger
 - Stephen Clemmer
+- Keelan Fisher
+- Reviewed W/entire class
 
 ### Setup
 
 #### `.env` requirements (where applicable)
 
-for now I have none and do not require one
+PORT=3001
 
 #### How to initialize/run your application (where applicable)
 
-- e.g. `npm start`
+- `nodemon` to start server
 
 #### How to use your library (where applicable)
 
@@ -55,6 +59,9 @@ for now I have none and do not require one
 
 - Feature One: Details of feature
 - GET : `/hello` - specific route to hit
+- GET : `/` - specific route to hit
+- GET : `/greet` - specific route to hit
+- GET : `/banana` - specific route to hit
 
 #### Tests
 
